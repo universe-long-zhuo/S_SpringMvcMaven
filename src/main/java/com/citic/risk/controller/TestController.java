@@ -32,7 +32,7 @@ public class TestController {
 	@RequestMapping(value = "/hello", produces = "text/plain;charset=UTF-8")
 	public @ResponseBody
 	String hello() {
-		return "你好！hello";
+		return "你好！hello怎么样？？？你看到字符串类型 hello方法｛返回 “内容”｝";
 	}
 
 	@RequestMapping(value = "/say/{msg}", produces = "application/json;charset=UTF-8")
